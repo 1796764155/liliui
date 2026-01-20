@@ -1,0 +1,257 @@
+@import url("liliui.css"); 
+
+
+/*
+**【Tip·提示】
+** By LiLiUI
+** 更新于 2022-05-30
+*/
+/* 基础设定 */
+.lili-tip{width:calc(100% - 36px); min-height:50px; padding:8px 15px 8px 15px; border-radius:5px; overflow:hidden; margin:15px 0; /*禁止选中和复制-moz-user-select:none; -khtml-user-select:none; user-select:none;*/ }
+.lili-tip-title{font-weight:700; margin-bottom:10px;}
+.lili-tip-body{font-size:14px;}
+/* 主题强调 */
+.lili-tip-normal{background-color:#D9ECFF; border:1px solid #C8E4FF; border-left:5px solid #1F8FFF;}
+.lili-tip-succeed{background-color:#ECFFF8; border:1px solid #D0FFEE; border-left:5px solid #00AA5B;}
+.lili-tip-warning{background-color:#FFF5E2; border:1px solid #FFECC8; border-left:5px solid #FFA900;}
+.lili-tip-lose{background-color:#FFE5E5; border:1px solid #FFD9D9; border-left:5px solid #DE0000;}
+
+
+
+/*
+**【Button·按钮】
+** By LiLiUI
+** 更新于 2022-05-30
+*/
+/* 基础设定 */
+.lili-btn{display:inline-block; line-height:1; white-space:nowrap; cursor:pointer; -webkit-appearance:none; text-align:center;  box-sizing:border-box; outline:none; margin: 0; transition: 0.1s; border-radius:5px;}
+
+/* Button 外包裹层 */
+.lili-btn-group{padding:7.5px 0;}
+
+/* 定义按钮边框、背景颜色 */
+.btn-bdbg-normal{background:#FFFFFF; border:1px solid #DBDBDB; color:#606266; transition: ease 0.2s;}
+.btn-bdbg-normal:hover{border:1px solid #C1E0FF; background-color:#ECF5FF; color:#006DD9; transition: ease 0.2s;}
+.btn-bdbg-bd-normal{border:1px solid #9FD5FF; background-color:#ECF5FF; color:#0090FF; transition: ease 0.2s;}
+.btn-bdbg-bd-normal:hover{border:1px solid #0090FF; background-color:#0090FF; color:#FFFFFF; transition: ease 0.2s;}
+
+
+
+.btn-bdbg-bg-normal{background:#0080FF; border:1px solid #0080FF; color:#FFFFFF; transition: ease 0.2s;}
+.btn-bdbg-bg-normal:hover{background:#0080FF; color:#FFFFFF; transition: ease 0.2s; opacity:0.80;}
+.btn-bdbg-bg-lose{background:#DE0000; border:1px solid #DE0000; color:#FFFFFF; transition: ease 0.2s;}
+.btn-bdbg-bg-lose:hover{background:#DE0000; color:#FFFFFF; transition: ease 0.2s; opacity:0.80;}
+.btn-bdbg-bg-warning{background:#FF9A00; border:1px solid #FF9A00; color:#FFFFFF; transition: ease 0.2s;}
+.btn-bdbg-bg-warning:hover{background:#FF9A00; color:#FFFFFF; transition: ease 0.2s; opacity:0.80;}
+.btn-bdbg-bg-succeed{background:#00B134; border:1px solid #00B134; color:#FFFFFF; transition: ease 0.2s;}
+.btn-bdbg-bg-succeed:hover{background:#00B134; color:#FFFFFF; transition: ease 0.2s; opacity:0.80;}
+
+/* 定义按钮字体、宽度大小 */
+.btn-size-normal{font-weight:500; padding:12px 20px; font-size:14px;}
+.btn-size-s1{font-size:13px; padding:5.5px 12px 6px 12px;}
+
+/* 定义按钮边框圆角 */
+.btn-bd-rds1{border-radius:50%; padding:11.5px 12px 12px 12px;}
+.btn-bd-rds2{border-radius:25px;}
+
+
+
+/*
+**【Input·单行输入框】
+** By LiLiUI
+** 更新于 2022-05-30
+*/
+/* 基础设定 */
+.lili-int{border-radius:5px; border:1px solid #DEDEDE; text-indent:12px;}
+.lili-int:hover{border:1px solid #BABABA;}
+.lili-int:focus{border:1px solid #1D8FFF;}
+
+/* Input·单行输入框,内部阴影,仅提供默认方案，您可以自由适配 */
+.lili-int-neibu-shadow:hover{box-shadow:0 2px 12px 0 rgba(0,0,0,0.1) inset; transition:0.2s;}
+.lili-int-neibu-shadow:focus{box-shadow:0 2px 12px 0 rgba(0,128,255,0.1) inset; transition:0.2s;}
+
+/* Input·单行输入框,外部阴影,仅提供默认方案，您可以自由适配 */
+.lili-int-waibu-shadow:hover{box-shadow:0 2px 10px 0 rgba(0,0,0,0.1); transition: ease 0.2s;}
+.lili-int-waibu-shadow:focus{box-shadow:0 2px 10px 0 rgba(1,129,255,0.1); transition: ease 0.2s;}
+
+/* Input·单行输入框 大小*/
+.lili-size-normal{height:38px; width:240px;}
+.lili-size-cvwith{height:38px; width:100%;}
+
+.lili-int-group{padding:7.5px 0;}
+
+
+/*
+**【Card·卡片】
+** By LiLiUI
+** 更新于 2022-05-30
+*/
+/* 基础设定 */
+.lili-card-box{border-radius:5px; border:1px solid #EDEDED; width:calc(100% - 2px); margin:15px 0 15px 0; overflow:hidden;}
+.lili-card-header{border-bottom:1px solid #EDEDED; padding:4.5px 15px 5px 15px;}
+.lili-card-header stitle{font-weight:700; line-height:48px; font-size:15px;}
+.lili-card-body{min-width:150px; padding:15px; overflow:visible;}
+
+.lili-card-box{margin:15px 0 75px 0;}
+
+/* 多样化的卡片阴影 */
+/* shadow-always：总是显示 */
+.lili-cbox-shadow-always{box-shadow:0 2px 8px 0 rgba(0,0,0,0.08);}
+.lili-cbox-shadow-always:hover{box-shadow:0 2px 8px 0 rgba(0,0,0,0.08);}
+/* shadow-always：经过时显示 */
+.lili-cbox-shadow-hover{box-shadow:0 2px 8px 0 rgba(0,0,0,0); transition:ease 0.3s;}
+.lili-cbox-shadow-hover:hover{box-shadow:0 2px 8px 0 rgba(0,0,0,0.08); transition:ease 0.2s;}
+
+/* 其它说明：若需要“总是不显示”，您不要加入 lili-cbox-shadow-****** 类在其中即可 */
+
+
+
+/*
+**【ToolTip·提示工具】
+** By LiLiUI
+** 更新于 2022-05-30
+*/
+/* 基础设定 */
+.lili-tooltip{position:relative; display:inline-block;}
+
+/* 提示在上，箭头朝下 */
+.lili-tooltip .lili-tooltip-text-top{visibility:hidden; color:#fff; text-align:center; border-radius:6px;padding:5px 0; position:absolute; z-index:1; bottom:150%; left:50%; width:100px; margin-left:-40px; padding:7.5px 0px 8px 0px; background-color:rgba(0,0,0,0.75); font-size:13px; box-shadow:0 2px 10px 0 rgba(0,0,0,0.05);backdrop-filter:blur(8px);}
+.lili-tooltip .lili-tooltip-text-top::after{top:100%; left:20%; content:""; position:absolute; margin-left:-10px; border-width:6px; border-style:solid;border-color:rgba(0,0,0,0.75) transparent transparent transparent}
+.lili-tooltip:hover .lili-tooltip-text-top{visibility:visible}
+.lili-tooltip .lili-tooltip-text-top{opacity:0; transition:opacity 1s}
+.lili-tooltip:hover .lili-tooltip-text-top{opacity:1; transition:opacity 0.5s}
+
+/* 提示在左，箭头朝右 */
+.lili-tooltip .lili-tooltip-text-left{font-size:13px; visibility:hidden; width:100px; color: #fff; text-align: center; border-radius:6px; padding:5px 0; position:absolute; z-index:1; top:-5px; right:110%; padding:7.5px 0px 8px 0px; background-color:rgba(0,0,0,0.75); font-size:13px; box-shadow:0 2px 10px 0 rgba(0,0,0,0.05);backdrop-filter:blur(8px);}
+.lili-tooltip .lili-tooltip-text-left::after{ content: ""; position: absolute; top:50%; left:100%; margin-top:-5px; border-width: 5px; border-style: solid; border-color: transparent transparent transparent rgba(0,0,0,0.75);}
+.lili-tooltip:hover .lili-tooltip-text-left{visibility:visible}
+.lili-tooltip .lili-tooltip-text-left{opacity:0; transition:opacity 1s}
+.lili-tooltip:hover .lili-tooltip-text-left{opacity:1; transition:opacity 0.5s}
+
+/* 提示在右，箭头朝左 */
+.lili-tooltip .lili-tooltip-text-right{font-size:13px; visibility:hidden; width:100px; color:#fff; text-align:center; border-radius:6px; padding:5px 0; position:absolute; z-index:1; top:-5px; left:110%; padding:7.5px 0px 8px 0px; background-color:rgba(0,0,0,0.75); font-size:13px; box-shadow:0 2px 10px 0 rgba(0,0,0,0.05);backdrop-filter:blur(8px);}
+.lili-tooltip .lili-tooltip-text-right::after{content:""; position:absolute; top:50%; right:100%; margin-top:-5px; border-width:5px;border-style:solid; border-color:transparent rgba(0,0,0,0.75) transparent transparent;}
+.lili-tooltip:hover .lili-tooltip-text-right{visibility:visible}
+.lili-tooltip .lili-tooltip-text-right{opacity:0; transition:opacity 1s}
+.lili-tooltip:hover .lili-tooltip-text-right{opacity:1; transition:opacity 0.5s}
+
+/* 提示在下，箭头朝上 */
+.lili-tooltip .lili-tooltip-text-bottom{font-size:13px; visibility:hidden; width:100px; color:#fff; text-align:center; border-radius:6px; padding:5px 0; position:absolute; z-index:1; top:150%; left:50%; margin-left:-60px; padding:7.5px 0px 8px 0px; background-color:rgba(0,0,0,0.75); font-size:13px; box-shadow:0 2px 10px 0 rgba(0,0,0,0.05);backdrop-filter:blur(8px);}
+.lili-tooltip .lili-tooltip-text-bottom::after{content:""; position:absolute; bottom:100%; left:50%; margin-left:-5px; border-width:5px;border-style:solid; border-color:transparent transparent rgba(0,0,0,0.75) transparent;}
+.lili-tooltip:hover .lili-tooltip-text-bottom{visibility:visible}
+.lili-tooltip .lili-tooltip-text-bottom{opacity:0; transition:opacity 1s}
+.lili-tooltip:hover .lili-tooltip-text-bottom{opacity:1; transition:opacity 0.5s}
+
+
+
+/*
+**【table·表格】
+** By LiLiUI
+** 更新于 2022-05-30
+*/
+/* 基础设定 */
+.lili-table{width:100%; background-color:#FFFFFF; color:#666666; text-align:left !important;}
+.lili-table thead tr, .lili-table tbody tr{border-bottom:1px solid #EEEEEE;}
+.lili-table thead tr th, .lili-table tbody tr td{padding:15px 5px;}
+.lili-table thead tr th{transition:ease 0.3s; -webkit-user-select:none; -moz-user-select:none; -ms-user-select:none; user-select:none;}
+.lili-table tbody tr:hover{background-color:#F5F5F5; transition:ease 0.2s;}
+
+
+
+/*
+**【Breadcrumb 面包屑】
+** By LiLiUI
+** 更新于 2022-05-30
+*/
+/* 面包屑 */
+.lili-breadcrumb{width:100%;}
+.lili-breadcrumb-item{float:left; color:#9B9B9B}
+.lili-breadcrumb-item::after{content:'/'; margin:0 15px; color:#B1B1B1;}
+
+.lili-breadcrumb-iitem{float:left; color:#9B9B9B}
+.lili-breadcrumb-iitem::after{content:url(../images/chevron-right.svg); display:inline-block; margin:0 15px; vertical-align:middle; margin-top:2px; color:#B1B1B1;}
+
+.items-last::after{content:'';}
+
+
+
+/*
+**【临时组】
+** By LiLiUI
+** 更新于 2022-05-30
+*/
+/* 临时容器组（可以删除） */
+.li-row {margin-bottom: 20px;}
+.li-row {position:relative; box-sizing:border-box;}
+.li-row:after {clear: both;}
+.li-row:after, .li-row:before {display:table; content: "";}
+
+/* 临时容器组（可以删除） */
+#button-an-niu h2{font-size:28px; font-weight:400; color:#1f2f3d;}
+.button-an-niu span{display:block; margin-top:5px; margin-bottom:25px; font-size:14px; color:#515151;}
+#ji-chu-yong-fa h3{font-size:20px; font-weight:400; color:#1f2f3d;}
+.header-ancho::after{display:none; content:'@'; position:absolute; margin-left:-32px; padding-right:7px; margin-top:-0px; color:#0079FF;}
+#button-an-niu:hover .header-ancho::after{display:inline-block;}
+
+
+
+/*
+**【divider 分割线】
+** By LiLiUI
+** 更新于 2022-05-30
+*/
+/* divider 标准用法 */
+.lili-divider {position:relative; display:block; height:1px; width:100%; background-color:#dcdfe6; margin:24px 0;}
+
+/* divider 斜纹分割 */
+.lili-divider-twill1 {border:0; padding:3px; background:repeating-linear-gradient(135deg, #a2a9b6 0px, #a2a9b6 1px, transparent 1px, transparent 6px); margin:24px 0;}
+.lili-divider-twill2 {border:0; padding:3px; background:linear-gradient(135deg, red, orange,green, blue, purple); --mask-image: repeating-linear-gradient(135deg, #000 0px, #000 1px, transparent 1px, transparent 6px); -webkit-mask-image: var(--mask-image); mask-image: var(--mask-image); margin:24px 0;}
+
+/* divider 虚线分割 */
+.lili-divider-dashed1 {border:0; padding-top:1px; background:repeating-linear-gradient(to right, #a2a9b6 0px, #a2a9b6 4px, transparent 0px, transparent 10px); background: repeating-linear-gradient(to right, #a2a9b6 0 var(--dashed-filled, 4px), transparent 0 calc(var(--dashed-filled, 4px) + var(--dashed-open, 6px))); margin:24px 0;}
+.lili-divider-dashed2 {border:0; padding-top:1px; background:repeating-linear-gradient(to right, #a2a9b6 0px, #a2a9b6 4px, transparent 0px, transparent 10px); background: repeating-linear-gradient(to right, #a2a9b6 0 var(--dashed-filled, 4px), transparent 0 calc(var(--dashed-filled, 4px) + var(--dashed-open, 6px))); --dashed-filled: 6px; --dashed-open: 5px; margin:24px 0;}
+
+/* divider 虚线带文字分割 */
+.lili-divider-dashedtext{color:#a2a9b6; border:0; font-size:12px; padding:1em 0; position:relative; overflow:hidden; margin:24px 0;}
+.lili-divider-dashedtext::before{content:attr(data-content); position:absolute; padding:0 1.5ch; line-height:1px; border:solid #d0d0d5;border-width:0 99vw; width:fit-content; white-space:nowrap; left:5%; transform:translateX(-50%)}
+.lili-divider-dashedtext::before{border-image:repeating-linear-gradient(90deg,#d0d0d5,#d0d0d5 1px,transparent 1px,transparent 2px) 0 15% 0 repeat}
+
+
+
+/*
+**【Radio 单选框】
+** By LiLiUI
+** 更新于 2022-05-30
+*/
+/* Radio 单选框 */
+.lili-radio{display:block; float:left; cursor:pointer; margin:5px 15px;}
+.lili-radio-int[type="radio"]{width:14px; height:14px; cursor:pointer; margin-right:8px;}
+.lili-radio span{font-size:14px; display:block; float:right; margin-top:-1.5px; right:0;}
+.lili-radio-int[type="radio"]:disabled {box-shadow:inset 0 0 0 80px #f4f4f4; border-color:#c8c8c8; background:#c8c8c8; border-radius:50%;}
+.lili-radio-int[type="radio"]:disabled, .lili-radio:disabled, .lili-radio span:disabled{cursor:not-allowed;}
+
+
+
+/*
+**【Dropdown 下拉菜单】
+** By LiLiUI
+** 更新于 2022-05-30
+*/
+/* Dropdown 标准用法 */
+.dropbtn{display:inline-block; line-height:1; white-space:nowrap; cursor:pointer; -webkit-appearance:none; text-align:center;  box-sizing:border-box; outline:none; margin: 0; transition: 0.1s; border-radius:5px; background:#0080FF; border:1px solid #0080FF; color:#FFFFFF; transition: ease 0.2s; font-weight:500; padding:12px 20px; font-size:14px;}
+.dropdown{position:relative; display:inline-block}
+.dropdown-content{display:none; position:absolute; width:100%; background-color:#FFFFFF; box-shadow:0px 2px 10px 0px rgba(0,0,0,0.1); border-radius:5px;}
+.dropdown-content::after{content:""; position:absolute; bottom:99.99%; left:73.90%; margin-left:-5px; border-width:6px; border-style:solid; border-color:transparent transparent rgba(255,255,255,0.99) transparent;}
+.dropdown-content a{color:black; padding:10px 15px; text-decoration:none; display:block; font-size:14px;}
+.dropdown-content a:hover{background-color:#E9F5FF; color:#006FDE;}
+.dropdown:hover .dropdown-content{display:block}
+.dropdown:hover .dropbtn{background:#0080FF; color:#FFFFFF; transition: ease 0.2s; opacity:0.80; border:1px solid #0080FF;}
+
+.dropa{display:inline-block; line-height:1; white-space:nowrap; cursor:pointer; -webkit-appearance:none; text-align:center;  box-sizing:border-box; outline:none; margin: 0; transition: 0.1s; border-radius:5px; background:rgba(255,255,255,0); border:1px solid rgba(255,255,255,0); color:#0080FF; transition: ease 0.2s; font-weight:500; padding:12px 20px; font-size:14px;}
+.dropdown1{position:relative; display:inline-block}
+.dropdown-content1{display:none; position:absolute; width:100%; background-color:#FFFFFF; box-shadow:0px 2px 10px 0px rgba(0,0,0,0.1); border-radius:5px;}
+.dropdown-content1::after{content:""; position:absolute; bottom:100%; left:73.90%; margin-left:-5px; border-width:6px; border-style:solid; border-color:transparent transparent rgba(0,144,255,0.2) transparent;}
+.dropdown-content1 a{color:black; padding:10px 24px; text-decoration:none; display:block; font-size:14px;}
+.dropdown-content1 a:hover{background-color:#E9F5FF; color:#006FDE;}
+.dropdown1:hover .dropdown-content1{display:block}
+.dropdown1:hover .dropa{background:rgba(255,255,255,0); color:#0080FF; transition: ease 0.2s; opacity:0.80; border:1px solid rgba(255,255,255,0);}

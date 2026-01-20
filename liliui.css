@@ -1,0 +1,57 @@
+/**
+** LiLiUi
+** 为 LiLiCMS 量身定制的CSS UI
+**/
+/* 全局初始化 */
+@charset"utf-8"; *,html,body{margin:0; padding:0; border:0; outline:none; font-family:PingFangSC-Medium,PingFangSC-Regular,Tahoma,Microsoft Yahei,sans-serif;} h2 {display:block; font-size:28px; margin-block-start:0em; margin-block-end:0em; margin-inline-start:0px; margin-inline-end:0px;font-weight:400;} h3 {display:block; font-size:22px; margin-block-start:0em; margin-block-end:0em; margin-inline-start:0px; margin-inline-end:0px;font-weight:400;}
+
+ul{list-style:none;}
+
+/* 卡片标题右侧 */
+li-card-cz{float:right; margin-top:15px; font-size:14px;}
+
+
+
+/*
+**【全局table·表格】
+** By LiLiUI
+** 更新于 2022-05-30
+*/
+/* 基础设定 */
+table{border-collapse:collapse; border-spacing:0;}
+
+
+
+/*
+**【全局A标签】
+** By LiLiUI
+** 更新于 2022-05-30
+*/
+/* 基础设定 */
+a:link, a:visited{text-decoration:none; color:#1E1E1E; transition:0.3s;}
+a:hover, a:active{text-decoration:none; color:#005EBB; transition:0.2s;}
+
+
+
+/*
+**【全局表单之Button按钮】
+** By LiLiUI
+** 更新于 2022-05-30
+*/
+/* 基础设定 */
+li-button{background-color:rgba(255,255,255,0); color:#1E1E1E; transition:0.3s; cursor:pointer;}
+li-button:hover{background-color:rgba(255,255,255,0); color:#000000; transition:0.2s;}
+
+
+
+/*
+**【全局表单之input输入框】
+** By LiLiUI
+** 更新于 2022-05-30
+*/
+/* 基础设定 */
+input{background-color:rgba(255,255,255,0); color:#1E1E1E; transition:0.3s;}
+input:hover{background-color:rgba(255,255,255,0); color:#000000; transition:0.2s;}
+li-input{background-color:rgba(255,255,255,0); color:#1E1E1E; transition:0.3s;}
+li-input:hover{background-color:rgba(255,255,255,0); color:#000000; transition:0.2s;}
+
